@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+UL{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* nabbar starts here */
+nav{
+    background-color: #02918c;
+}
+.logo{
+    width: 40%;
+    align-self: center;
+}
+
+.menu{
+    width: 60%;
+    text-align: right;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+}
+/* nabbar ends here */
+
